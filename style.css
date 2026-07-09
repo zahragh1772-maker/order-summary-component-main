@@ -1,0 +1,110 @@
+body{
+    font-family:"Red Hat Display",sans-serif;
+    font-size: 16px;
+}
+h1{
+    font-weight: 900;
+    font-size: 2rem;
+    padding: 0 20px;
+}
+p{
+    font-weight: 500;
+    
+}
+
+main{
+    height: 100vh;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(./images/pattern-background-desktop.svg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 100%;
+
+}
+.card{
+   
+    background-color: #fff;
+    width: 90%;
+    max-width: 375px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+.paragraf{
+    width: 80%;
+    font-weight: 600;
+    margin: 20px auto;
+    line-height: 1.6;
+    color: hsl(224, 23%, 55%);
+    padding: 20px;
+}
+.lcard{
+    margin:20px auto;
+    padding: 15px;
+    width: 85%;
+    background-color:hsl(225, 100%, 98%);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.card>img{
+    width: 100%;
+     border-radius: 20px 20px 0 0;
+}
+.left{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex: 1;
+}
+.lcard-1{
+    margin: 0;
+    font-weight: 900;
+}
+.lcard-2{
+    margin: 0;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+.button{
+    background-color:hsl(245, 75%, 52%);
+    color: #fff;
+    border-radius: 10px;
+    width: 85%;
+    height: 50px;
+    margin: 25px auto;
+    padding: 15px 15px 40px 15px;
+    display: block;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 15px 25px hsl(224, 23%, 55%,0.5);
+    font-weight: 900;
+    font-size: 18px;
+}
+.button:hover{
+    background-color:hsl(268, 84%, 56%);
+}
+.Change{
+    font-weight: 900;
+    cursor: pointer;
+}
+.Change:hover{
+    color:hsl(268, 84%, 56%);
+}
+.cancel{
+    color: hsl(224, 23%, 55%);
+    display: block;
+    margin: 5px 0 30px 0;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+.cancel:hover{
+    color:hsl(268, 84%, 56%);
+}
